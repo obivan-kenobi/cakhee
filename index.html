@@ -20,7 +20,10 @@
                     <img src="images/logo-head.png" alt="logo" class="ba-logo__img">
                 </div>
                 <div class="ba-menu">
-                    <nav>
+                    <label for="toggle-menu" class="ba-menu__toggle" aria-label="toggle menu"></label>
+                    <input type="checkbox" id="toggle-menu" hidden>
+
+                    <nav class="ba-nav">
                         <ul class="ba-navig">
                             <li class="ba-navig__item">
                                 <a href="#" class="ba-navig__link">Home</a>
@@ -47,7 +50,7 @@
         </div>
     </header>
 
-    <section class="ba-head__info">
+    <section class="ba-section ba-head__info">
 
         <div class="ba-container">
             <div class="ba-fresh">
@@ -72,7 +75,7 @@
 
     <main>
 
-        <section class="ba-about">
+        <section class="ba-section ba-about">
             <div class="ba-container">
                 <div class="ba-about__info">
                     <div class="ba-about__item">
@@ -97,7 +100,7 @@
             </div>
         </section>
 
-        <section class="ba-services">
+        <section class="ba-section ba-services">
             <div class="ba-container">
                 <div class="ba-services__info">
                     <div class="ba-menu__service">
